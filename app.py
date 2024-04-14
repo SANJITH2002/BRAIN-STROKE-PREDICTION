@@ -23,7 +23,7 @@ def result():
     smoking_status = int(request.form['smoking_status'])
 
     x = np.array([gender,age,hypertension,heart_disease,ever_married,work_type,Residence_type,avg_glucose_level,bmi,smoking_status]).reshape(1,-1)
-    scaler_path = os.path.join('C:/Users/sanjith s/Desktop/stroke pred','models/scaler.pkl')
+    scaler_path = os.path.join('C:/Users/sanjith s/Desktop/stroke pred/models/scaler.pkl')
 
     scaler = None
     with open(scaler_path,'rb') as scaler_file:
