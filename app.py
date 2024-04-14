@@ -31,7 +31,7 @@ def result():
 
     x = scaler.transform(x)
 
-    model_path=os.path.join('C:/Users/sanjith s/Desktop/stroke pred','models/dt.sav')
+    model_path=os.path.join('models/dt.sav')
     dt=joblib.load(model_path)
 
     y_pred = dt.predict(x)
