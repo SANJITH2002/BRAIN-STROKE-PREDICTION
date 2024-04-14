@@ -1,6 +1,5 @@
 Flask
 Gunicorn
 Joblib
-Os
 Numpy
 Pickle
